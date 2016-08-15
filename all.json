@@ -16,5 +16,22 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+
+"announcements": [{
+    "date": "2016-01-01T08:00:00.000Z",
+    "title": "New Year Special",
+    "type": "sale",
+    "message": "Book your vacation rental today and receive a 50 percent discount!"
+  }, {
+    "date": "2016-09-01T08:00:00.000Z",
+    "title": "Hurricane Advisory",
+    "type": "weather",
+    "message": "It's hurricane season, check the weather before you travel!"
+  }, {
+    "date": "2016-02-01T08:00:00.000Z",
+    "title": "Summer Special",
+    "type": "sale",
+    "message": "Book your summer vacation to Mexico and receive a huge discount!"
   }]
 }

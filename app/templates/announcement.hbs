@@ -1,0 +1,13 @@
+<h1> Super Rental Updates! </h1>
+
+<ul>
+  {{#each model as |announcement|}}
+     {{announcement-tile announcement=announcement}}
+  {{/each}}
+</ul>
+
+{{new-announcement save2="save3"}}
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+{{#link-to 'index'}}Home{{/link-to}}
