@@ -19,17 +19,17 @@
   }],
 
 "announcements": [{
-    "date": "2016-01-01T08:00:00.000Z",
+    "date": "01/01/2016",
     "title": "New Year Special",
     "type": "sale",
     "message": "Book your vacation rental today and receive a 50 percent discount!"
   }, {
-    "date": "2016-09-01T08:00:00.000Z",
+    "date": "08/01/2016",
     "title": "Hurricane Advisory",
     "type": "weather",
     "message": "It's hurricane season, check the weather before you travel!"
   }, {
-    "date": "2016-02-01T08:00:00.000Z",
+    "date": "02/01/2016",
     "title": "Summer Special",
     "type": "sale",
     "message": "Book your summer vacation to Mexico and receive a huge discount!"
