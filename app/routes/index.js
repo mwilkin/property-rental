@@ -26,6 +26,11 @@ export default Ember.Route.extend({
       });
       rental.save();
       this.transitionTo('index');
+    },
+    saveCity(params) {
+      var newCity = this.store.createRecord('city', params);
+      newCity.save();
+      this.transitionTo('index');
     }
   }
 });
