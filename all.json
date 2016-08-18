@@ -17,6 +17,14 @@
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
   }],
+  "cities": [{
+    "name": "Portland",
+    "country": "USA"
+  }, {
+    "name": "Seattle",
+    "country": "USA"
+}],
+
 
 "announcements": [{
     "date": "01/01/2016",
