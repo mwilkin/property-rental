@@ -4,27 +4,27 @@
       <form>
         <div class="form-group">
           <label for="owner">Owner</label>
-          {{input value=owner id="owner" placeholder=rental.owner}}
+          {{input value=rental.owner id="owner"}}
         </div>
 
         <div class="form-group">
           <label for="type">Type</label>
-          {{input value=type id="type" placeholder=rental.type}}
+          {{input value=rental.type id="type"}}
         </div>
 
         <div class="form-group">
           <label for="city">City</label>
-          {{input value=city id="city" placeholder=rental.city}}
+          {{input value=rental.city id="city"}}
         </div>
 
         <div class="form-group">
           <label for="bedrooms">Number of Bedrooms</label>
-          {{input value=bedrooms id="bedrooms" type="number" placeholder=rental.bedrooms}}
+          {{input value=rental.bedrooms id="bedrooms" type="number"}}
         </div>
 
         <div class="form-group">
           <label for="image">Image URL</label>
-          {{input value=image id="image" placeholder=rental.image}}
+          {{input value=rental.image id="image"}}
         </div>
 
         <button {{action 'update' rental}}>Save</button>

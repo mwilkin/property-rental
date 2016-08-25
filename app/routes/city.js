@@ -21,7 +21,7 @@ export default Ember.Route.extend({
       Ember.RSVP.all(rental_deletions)
         .then(function() {
           return city.destroyRecord();
-      })
+      });
       this.transitionTo('index');
     }
   }
