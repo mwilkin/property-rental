@@ -1,7 +1,18 @@
-# Property-rentals
+# Property-rentals | Ember JS
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+* A simple application that allows property owners to list places for rent, and where renters to search for places to stay [similar to AirBnB or Vacasa].
+
+### User Stories
+
+* User can see a list of potential rental with their inherent properties.
+* User can see an image of the rental and hide it again.
+* User can delete a rental from the list
+* User can add a rental to a list.
+
+### Further Exploration
+* Create a new model called Announcement that will allow the site administrator to add important messages for users (upcoming sales, weather warnings, and other big exciting news).
+* Allow administrators to add and delete announcements. (We are not adding user authentication, so technically the admins and users can see the same information, that's fine for now!)
+* Add a button or link on the main page for users to visit these "Important announcements".
 
 ## Prerequisites
 
@@ -12,6 +23,7 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* Firebase app to serve as backend storage.
 
 ## Installation
 
@@ -39,9 +51,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
